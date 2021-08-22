@@ -1,8 +1,17 @@
 import React from 'react';
+import CardNota from './components/CardNota';
+import FormularioCadastro from './components/FormularioCadastro';
 
 function App() {
   return (
-    <h1> Meu app react </h1>
+    <section>
+      <FormularioCadastro/>
+      <ul>
+      <CardNota/>
+      <CardNota/>
+      <CardNota/>
+      </ul>
+    </section>
   );
 }
 
